@@ -1,0 +1,24 @@
+{
+	"name": "future_search",
+	"version": "1.0.0",
+	"description": "Web extension that adds wearebuildingthefuture.com as a search engine to the Firefox browser.",
+	"author": "rtrevinnoc",
+	"scripts": {
+		"bundle": "web-ext -s web-extension -a dist build --overwrite-dest",
+		"start": "web-ext run -s ./web-extension"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rtrevinnoc/future_search_firefox_extension"
+	},
+	"bugs": {
+		"url": "https://github.com/rtrevinnoc/future_search_firefox_extension/issues"
+	},
+	"license": "GNU General Public License v3",
+	"keywords": [
+		"webextensions"
+	],
+	"devDependencies": {
+		"web-ext": "^5.1.0"
+	}
+}
