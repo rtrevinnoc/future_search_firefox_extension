@@ -18,5 +18,10 @@
 			"suggest_url": "https://wearebuildingthefuture.com/_autocomplete/",
 			"suggest_url_get_params": "term={searchTerms}&type=list"
 		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "rtrevinnoc@wearebuildingthefuture.com"
+		}
 	}
 }
